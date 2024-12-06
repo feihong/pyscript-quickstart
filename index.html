@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- PyScript CSS -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.11.1/core.css">
+    <!-- This script tag bootstraps PyScript -->
+    <script type="module" src="https://pyscript.net/releases/2024.11.1/core.js"></script>
+
+    <style>
+      html {
+        max-width: 70ch;
+        padding: 3em 1em;
+        margin: auto;
+        line-height: 1.75;
+        font-size: 1.25em;
+      }
+      textarea {
+        width: 30em;
+        height: 10em;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Title</h1>
+
+      <div id="random-text"></div>
+
+      <div>
+        <div>
+          <select></select>
+          <button>Speak</button>
+        </div>
+
+        <textarea></textarea>
+      </div>
+    </main>
+    <script type="mpy" src="main.py"></script>
+  </body>
+</html>
